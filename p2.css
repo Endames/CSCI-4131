@@ -201,15 +201,7 @@ p	{
 
 /* This will color all the links red  */
 
-#menu ul li a:hover {
-	color: #000;
-	background: #ccc;
-	}
 
-#menu a:active	{
-	background: #c60;
-	color: #fff;
-	}
 a:link, a:visited {
 	font-weight : bold;
 	text-decoration : none;
