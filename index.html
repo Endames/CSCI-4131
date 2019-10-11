@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+
+    <title>xkcd password generator</title>
+    <script src="jquery-2.1.0.min.js" type="text/javascript">
+</script>
+    <script src="pw.js" type="text/javascript">
+</script>
+    <script src="index.js" type="text/javascript">
+</script>
+<!-- This is the link to the text css file -->
+<link rel ="stylesheet" href ="p3.css" >
+</head>
+
+<body>
+    <header class="site-header">XKCD Password Generator</header>
+    <br/><br/>
+
+    <button  id= "generate_button" onclick="saveHistory()" >Generate</button>
+     <button id= "select"> Copy </button>
+    <!-- <button onclick="saveHistory()"> Save </button> -->
+    <br/><br/>
+
+
+
+    <div> How many words would you like? </div>
+    <button id="more_words">More Words</button>
+    <span id="numwords"></span>
+    <button id="less_words">Less Words</button>
+    <br/><br/>
+
+
+    <div> How long of words would you like to use? </div>
+    <button id= "longer_words"> Longer Words </button>
+    <span id = "wordlength" ></span>
+    <button id ="shorter_words"> Shorter Words </button>
+    <br/><br/>
+
+
+    <div> Would you like any extras in your password? </div>
+    <button id="digits">Digits</button>
+    <button id="caps">Capitlized</button>
+    <button id="spaces">Spaces</button>
+
+    <br/><br/>
+
+
+    <div id="password"></div>
+    <!-- <div id ="Length"> :: </div> -->
+    <br/>
+
+
+    <br/><br/>
+
+    <table id = "historytable"> </table>
+
+</body>
+</html>
